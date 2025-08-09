@@ -1,0 +1,43 @@
+# Docker volumes and data
+/data/
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# Kafka data (if mounted locally)
+/kafka-data/
+/prometheus-data/
+/grafana-data/
