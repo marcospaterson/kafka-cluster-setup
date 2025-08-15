@@ -8,9 +8,9 @@ A production-ready Apache Kafka cluster setup with comprehensive monitoring usin
 ┌─────────────────────────────────────────┐
 │ Docker Host                             │
 │ ┌─────────────────────────────────────┐ │
-│ │ Apache Kafka 3.7.0 (KRaft)         │ │
-│ │ Port: 9092 (external)              │ │
-│ │ Port: 9094 (internal)              │ │
+│ │ Apache Kafka 3.7.0 (KRaft)          │ │
+│ │ Port: 9092 (external)               │ │
+│ │ Port: 9094 (internal)               │ │
 │ │ Persistent Volume: kafka_data       │ │
 │ └─────────────────────────────────────┘ │
 │ ┌─────────────────────────────────────┐ │
